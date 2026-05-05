@@ -3,4 +3,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_ model import linearregression
 df=pd.read_csv("data.csv")
-print(df)
+x=df['hours']
+y=df['scores']
+x
